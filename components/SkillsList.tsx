@@ -8,8 +8,8 @@ function SkillBulletPoint({ index, skill} : {index: number, skill: string}) {
 
 export default function SkillsList({ skills } : any) {
     return (
-        <div>
-            <h3>Skills</h3>
+        <div className="mt-5">
+            <h3 className="text-2xl">Skills</h3>
             <ul>
                 {skills.map((skill:string, index:number) => {
                     return(

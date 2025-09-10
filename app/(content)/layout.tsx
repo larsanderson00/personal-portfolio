@@ -12,7 +12,9 @@ export default function ContentLayout({ children } : any) {
         <div id="page">
             {/* <MainHeader /> */}
             <NavBar />
-            {children}
+            <div className='w-5/6 m-auto'>
+              {children}
+            </div>
         </div>
   )
 }
