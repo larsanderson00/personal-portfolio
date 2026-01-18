@@ -24,6 +24,17 @@ body {
   color: #e5e5e1;
 }
 
+#intro {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#intro img {
+  margin: auto;
+  max-width: 25%;
+}
+
+
 /*
 ul {
   list-style: none;
