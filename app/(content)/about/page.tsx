@@ -1,20 +1,6 @@
 import SkillsList from "@/components/SkillsList"
 
 export default function AboutPage() {
-    const skills = [
-        "HTML, CSS, JavaScript",
-        "JavaScript Frameworks: React, Next.js",
-        "Python, C#, SQL, PHP",
-        "Django",
-        "Using APIs",
-        "GitHub",
-        "PostgreSQL and SQL Server Management Studio",
-        "Microsoft Office",
-        "Adobe Suite",
-        "DaVinci Resolve",
-        "Active Directory"
-    ];
-
     return (
         <div>
             <h1 className="text-center text-5xl m-6">About</h1>
@@ -26,7 +12,7 @@ export default function AboutPage() {
                     and troubleshooting.
                 </p>
             
-                <SkillsList skills={skills} />
+                <SkillsList />
             </div>
         </div>
     )
